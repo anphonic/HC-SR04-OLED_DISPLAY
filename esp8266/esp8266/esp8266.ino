@@ -1,3 +1,5 @@
+//#include <Adafruit_ESP8266.h>
+
 /*  Robo-Plan Technologies LTD: 08/2016
    The purpose of this Arduino Sketch is to check the ESP8266-01 as a peripheral wifi board connected to
    an Arduino Uno board via a 5-3.3 logic converter with SoftwareSerial using ESP8266 AT command library created by ITEAD.
@@ -27,10 +29,10 @@
    -  Sometime setting the baudrate on initialization fails, try resetting the Arduino, it should work fine.
    
 */
-#include "ESP8266.h"
+#include <ESP8266.h>
 
-const char *SSID     = "WIFI-SSID";
-const char *PASSWORD = "WIFI-PASWWORD";
+const char *SSID     = "HIRO";
+const char *PASSWORD = "";
 
 SoftwareSerial mySerial(10, 11); //SoftwareSerial pins for MEGA/Uno. For other boards see: https://www.arduino.cc/en/Reference/SoftwareSerial
 
