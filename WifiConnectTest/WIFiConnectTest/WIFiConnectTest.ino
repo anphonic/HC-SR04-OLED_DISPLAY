@@ -5,8 +5,8 @@
  */
 #include "ESP8266WiFi.h"
 
-const char* ssid = "surv4";
-const char* password = "modernhill543";   
+const char* ssid = "";
+const char* password = "";   
 
 WiFiClient wifiClient;
 
